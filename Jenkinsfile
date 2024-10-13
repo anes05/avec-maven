@@ -10,7 +10,7 @@ pipeline {
         stage('GIT') {
             steps {
                 git branch: 'main',
-                url: 'https://github.com/mhassini/avec-maven.git'
+                url: 'https://github.com/anes05/avec-maven.git'
             }
             
         }
